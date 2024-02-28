@@ -1,0 +1,432 @@
+
+.main-content .container-fluid {
+    background-image: url(./Asset/Landing\ Page.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.container-fluid .row {
+    text-align: center;
+}
+
+/* .container-fluid .row .col-6 {
+
+} */
+
+.container-fluid .row .col-6 ul {
+    list-style: none;
+    display: inline-flex;
+    position: static;
+    gap: 40px;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+.container-fluid .row .col-6 ul li {
+    color: #ffff;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.container-fluid .row .col-6 ul li a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.container-fluid .row .col-6 ul li .nav-home:hover {
+    background-color: #482BE7;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+/* Startup 3 */
+.container-fluid .row .col-8 h2 {
+    font-size: 24px;
+    color: white;
+    margin-top: 20vh;
+}
+
+.container-fluid .row .col-8 h1 {
+    font-size: 72px;
+    color: #ffff;
+
+}
+
+.container-fluid .row .col-8 .col p {
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 1.5em;
+}
+
+.container-fluid .row .col ul {
+    color: white;
+    gap: 20px;
+}
+
+.container-fluid .row .col ul li {
+    display: inline-flex;
+}
+
+.btn-create-account {
+    background-color: #482BE7;
+    text-align: right;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    margin-top: 120px;
+    margin-bottom: 160px;
+    text-decoration: none;
+    padding: 17px 35px;
+    font-size: 18px;
+}
+
+
+.content .container-fluid{
+    background-image: url(./Asset/Bg-Content.png);
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.content-p1 {
+    margin-top: 110px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.content-p2 {
+    font-size: 56px;
+    margin-top: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.content-p3 {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+
+.feature .container-fluid {
+    background-image: url(./Asset/bg-Features.png);
+    background-size: cover;
+    min-height: 80vh;
+    padding-left: 0px;
+}
+
+.feature .container-fluid .row .col-4 .laptop {
+    float: left;
+    margin-top: 10vh;
+} 
+
+.feature .container-fluid .row .col-5 {
+    display: block;
+}
+
+.feature .container-fluid h1 {
+    font-size: 42px;
+    color: white;
+    text-align: left;
+    padding-top: 15vh;
+}
+
+.feature .container-fluid p {
+    font-size: 22px;
+    color: white;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 0px;
+}
+
+.feature .container-fluid .two-colum {
+    margin-top: -30vh;
+}
+
+.feature .container-fluid .two-colum .row .col-md-3 img {
+    display: flex;
+}
+
+.feature .container-fluid .two-colum .row .col-3 img {
+    display: flex;
+}
+
+.feature .container-fluid .two-colum .row .col-md-3 h4 {
+    color: white;
+    text-align: left;
+    margin-top: 29px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.feature .container-fluid .two-colum .row .col-3 h4 {
+    color: white;
+    text-align: left;
+    margin-top: 29px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.feature .container-fluid .two-colum .row .col-md-3 p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 100px;
+}
+    
+.feature .container-fluid .two-colum .row .col-3 p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 100px;
+    }
+
+.login-section .container-fluid {
+    background-image: url(./Asset/Bg-Content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+.login-section .container-fluid .container .row .col-7 h1 {
+    color: white;
+    font-size: 42px;
+}
+
+.login-section .container-fluid .container .row .col-7 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.login-section .container-fluid .container .row .col-7 h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 210px;
+    margin-right: 130px;
+    margin-left: 10vh;
+    text-align: left;
+}
+
+.login-section .container-fluid .container .row .col-7 p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 130px;
+    margin-left: 10vh;
+    text-align: left;
+}
+
+.login-section .container-fluid .container .row .col-5 ul {
+    display: block;
+}
+
+.login-section .container-fluid .container .row .col-5 ul li {
+    font-weight: 400;
+    color: black;
+    display: inline-table;
+}
+
+.login-section .container-fluid .container .row .col-5 {
+    border: 1px;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.login-section .container-fluid .container .row .col-5 .row p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-section .container-fluid .container .row .col-5 form .row input {
+    border-color: rgba(0, 0, 0, 0.159);
+    border: 1;
+    width: 400px;
+    border-radius: 100px;
+    margin-top: 30px;
+    height: 50px;
+    padding: 20px;
+}
+
+.login-section .container-fluid .container .row .col-5 form .row .log-create {
+    background-color: #25DAC5;
+    width: 400px;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 12px 85px;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.login-section .container-fluid .container .row .col-5 form .row .log-twitter {
+    background-color: #1DA1F2;
+    width: 400px;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 12px 85px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+
+/* testimoni section */
+
+.testimoni .container-fluid {
+    background-color: #1E0E62;
+    min-height: 75vh;
+}
+
+.testimoni img {
+    float: left;
+    height: 70px;
+    margin-right: 30px;
+    margin-bottom: 4em;
+}
+
+.testimoni h1 {
+    font-size: 42px;
+    color: white;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.testimoni .col {
+    border: 1px;
+    border-color: white;
+}
+
+.testimoni .col p {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.testimoni .col h6 {
+    color: rgba(255, 255, 255, 0.702);
+    text-align: left;
+    font-size: 14px;
+    margin-top: 3em;
+    vertical-align: bottom;
+}
+
+/* CTA Section */
+
+.calltoact-section .container-fluid {
+    background-image: url(./Asset/bg-cta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 70vh;
+}
+
+.calltoact-section .container-fluid .container h1 {
+    font-size: 58px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}
+
+.calltoact-section .container-fluid .container .row .col-6 p {
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+.calltoact-section .container-fluid .container .button-youtube {
+    background-color: red;
+    border-radius: 100px;
+    max-width: 70px;
+    max-height: 70px;
+    border: none;
+    padding: 25px
+}
+
+.calltoact-section .container-fluid .container .button-youtube img {
+    height: 16px;
+    margin: 0;
+}
+
+.calltoact-section .container-fluid .container .button-started {
+    background-color: #25DAC5;
+    max-width: 215px;
+    max-height: 70px;
+    color: white;
+    border: none;
+    padding: 22px 50px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+/* Showcase */
+
+.showcase .container-fluid {
+    background-color: #1E0E62;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 70vh;
+}
+
+.showcase .container-fluid .container h1 {
+    font-size: 42px;
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.showcase .container-fluid .container button {
+    text-align: right;
+    background-color: #1E0E62;
+    color: white;
+    font-size: 18px;
+    border-color: white;
+    max-width: 170px;
+    padding: 12px 24px;
+    border-radius: 100px;
+    margin-top: 100px;
+    border: 1px solid;
+}
+
+.showcase .container-fluid .container .row .col img {
+    height: 280px;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.showcase .container-fluid .container .row .col span {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+}
+
+.showcase .container-fluid .container .row .col h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
